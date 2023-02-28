@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar, Sidebar, Footer } from "./components";
-import AuthWrapper from "./pages/AuthWrapper";
+//import AuthWrapper from "./pages/AuthWrapper";
 import {
   Home,
   Products,
@@ -11,6 +11,7 @@ import {
   About,
   Error,
   SingleProduct,
+  AuthWrapper,
 } from "./pages/index";
 function App() {
   return (
